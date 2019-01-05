@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>About - Blog</title>
+    {% if title %}<title>Blog - {{ title }}</title>{% else %}<title>Blog - Home</title>{% endif %}
 </head>
 <body>
     <h1> About Landing ! </h1>
